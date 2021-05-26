@@ -5,7 +5,7 @@ on: push
   
 env:
   # Default Target Apigee Organization (can be also be dynamically defined in [Set Variables *] steps)
-  DEFAULT_APIGEE_ORG: emea-demo7
+  DEFAULT_APIGEE_ORG: demo-fra03
   # Retrieve Apigee UserID and password from repository settings (secrets)
   APIGEE_CREDS_USR: ${{ secrets.APIGEE_CREDS_USR }}
   APIGEE_CREDS_PSW: ${{ secrets.APIGEE_CREDS_PSW }}
