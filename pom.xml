@@ -104,12 +104,6 @@ limitations under the License.
                 <artifactId>apigee-config-maven-plugin</artifactId>
                 <version>1.3.4</version>
                 <executions>
-<execution><id>initialise-mfa</id>
-    <phase>validate</phase>
-    <goals>
-        <goal>initmfa</goal>
-    </goals>
-</execution>
                     <execution>
                         <id>create-config-cache</id>
                         <phase>install</phase>                        
