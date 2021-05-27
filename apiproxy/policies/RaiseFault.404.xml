@@ -21,7 +21,7 @@
             <ReasonPhrase>The requested resource {proxy.pathsuffix} was not found.</ReasonPhrase>
             <Payload contentType="application/json">
                 {
-                    "error":"404.01.001",
+                    "error":"404.01.002",
                     "msg": "The requested resource {proxy.pathsuffix} was not found.",
                     "link": "https://developer.example.com/404.01.001"
                 }
